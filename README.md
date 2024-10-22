@@ -84,6 +84,8 @@ Epoch 25:
 
 ## References
 PyTorch Documentation: https://pytorch.org/get-started/locally/
+
+
 DCGAN Tutorial: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
 
