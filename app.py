@@ -102,3 +102,5 @@ for epoch in range(num_epochs):
 
     print(f'Эпоха [{epoch+1}/{num_epochs}], Потери G: {lossG.item()}, Потери D: {lossD_real.item() + lossD_fake.item()}')
 
+    if (epoch+1) % 5 == 0:
+        vutils.save_image(fake_data, f'fake_samples_epoch_{epoch+1}.png', normalize=True)
