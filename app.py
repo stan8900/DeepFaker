@@ -5,6 +5,7 @@ from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
 import torchvision.utils as vutils
 
+# Параметры сети
 image_size = 64
 batch_size = 128
 nz = 100  # Размер входного вектора шума
